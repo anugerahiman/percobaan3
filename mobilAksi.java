@@ -16,4 +16,10 @@ public class mobilAksi {
         System.out.println(A.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(A.getHarga());
+        
+        mobil AP = new mobil();
+        AP.setMerk("Ayla");
+        AP.setWarna("Hitam");
+        AP.setHarga(120000000);
+        }
    }
