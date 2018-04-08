@@ -12,3 +12,31 @@ public class mobil {
   
   }
   
+
+   
+    public String getmerk(){
+      return merk;
+    }  
+
+    public void setMerk(String merk){
+          this.merk = merk;
+    }
+
+    public String getWarna(){
+          return warna;
+    }  
+
+    public void setWarna(String warna){
+          this.warna = warna;
+    }
+
+    public Double getHarga(){
+          return harga;
+    }  
+
+    public void setHarga(double harga){
+          this.harga = harga;
+     }
+   
+}
+
